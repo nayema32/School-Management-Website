@@ -1,0 +1,36 @@
+.logo h2
+	{
+		font-size: 25px;
+		margin-bottom: 11px;
+		margin-top: 24px;
+	}
+.logo h2 a
+{
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 2px 2px 0 #666;
+}
+.logo p{}
+.social{width: 255px; float: right; padding-top: 16px}
+.social img{width: 60px;
+  transform: rotate(-360deg) scale(1);
+  transition: .5s;
+
+}
+.social img:hover{
+  transform: rotate(360deg) scale(1.2);
+  transition: .5s;
+}
+
+
+<div class="social">
+			<a href="https://facebook.com/Jobagencykhulna-1981611628727878/" target="_blank">
+				<img src="img/fb.png" alt="Facebook"/>
+			</a>
+			<a href="https://twitter.com" target="_blank"><img src="img/tt.png" alt="Twitter"/></a>
+			<a href="https://linkedin.com" target="_blank"><img src="img/li.png" alt="Linkedin"/></a>
+			<a href="https://plus.google.com" target="_blank"><img src="img/gp.png" alt="GooglePlus"/></a>
+		</div>
+
+<div class="logo">
+			<a href="index.php"><img src="img/logo.png" alt="logo"/></a>
